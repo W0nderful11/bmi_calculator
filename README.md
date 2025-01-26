@@ -61,7 +61,22 @@ The API will be available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000
 
 - **Method**: `POST`
 - **Description**: Calculates the Body Mass Index (BMI) and returns its classification.
+  
+To test the API, follow these steps:
 
+1. Click on the `POST` method for the `/calculate_bmi` endpoint.
+2. Click on the "Try it out" button.
+3. Highlight the entire content in the request body section, delete everything, and replace it with the following:
+
+```json
+{
+  "height": 1.75,
+  "weight": 70
+}
+```
+#Make sure to include the decimal point for the height (e.g., 1.75 meters).
+4. After entering the data, click on the "Execute" button.
+5. In the "Server response" section, the response body will appear, showing the calculated BMI and classification.
 ### Input Data (JSON):
 
 ```json
