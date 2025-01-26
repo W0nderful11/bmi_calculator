@@ -66,8 +66,8 @@ The API will be available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000
 
 ```json
 {
-  "height": 1.75,  // Height in meters (positive number)
-  "weight": 70     // Weight in kilograms (positive number)
+  "height": 1.75,
+  "weight": 70
 }
 ```
 
@@ -75,8 +75,8 @@ The API will be available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000
 
 ```json
 {
-  "bmi": 22.86,            // Calculated Body Mass Index
-  "classification": "Normal weight"  // BMI classification
+  "bmi": 22.86,           
+  "classification": "Normal weight"  
 }
 ```
 
